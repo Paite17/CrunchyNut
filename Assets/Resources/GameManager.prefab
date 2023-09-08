@@ -1,0 +1,72 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &6906009087244259416
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 6906009087244259418}
+  - component: {fileID: 6906009087244259417}
+  m_Layer: 0
+  m_Name: GameManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &6906009087244259418
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6906009087244259416}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 501.3984, y: 266.2784, z: 2.6891198}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 3
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &6906009087244259417
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6906009087244259416}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 069e81c6953c33944979e903b5875bf8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  clickCount: 0
+  clicksPerSecond: 0
+  amountPerClick: 1
+  currentDay: 1
+  currentTime: 0
+  maxTimeInDay: 90
+  crunchTimeActive: 0
+  previousDay: 0
+  tiredLevel: 1
+  alreadyNight: 0
+  deadlineDaysLeft: 20
+  totalClicksOfTheDay: 0
+  endGoal: 0
+  totalClicks: 0
+  upgradeAmount: 0000000000000000000000000000000000000000
+  milestones: []
+  progressAmount: {fileID: 0}
+  upgrades:
+  - {fileID: 1283240458350921669, guid: d4cc51420ccaa80498d6363ee7056ee4, type: 3}
+  - {fileID: 6748421608923962344, guid: 9430db6593412f74fbf7d50a0ce9b07b, type: 3}
+  - {fileID: 5520468266877126252, guid: f000140ba7543a54a87e3831d52132a8, type: 3}
+  - {fileID: 1811920314234413297, guid: 449ffe72ed399304e84f4d01103d1a14, type: 3}
+  - {fileID: 8712301991104088808, guid: 434815f704c02d0479957d8197739204, type: 3}
+  dayBG: {fileID: 0}
+  nightBG: {fileID: 0}
+  transition: {fileID: 0}
